@@ -4,4 +4,4 @@
 
 require File.expand_path('../config/application', __FILE__)
 
-JasonRivesFizzbuzz::Application.load_tasks
+Fizzbuzz::Application.load_tasks

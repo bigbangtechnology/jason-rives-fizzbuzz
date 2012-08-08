@@ -1,4 +1,15 @@
-JasonRivesFizzbuzz::Application.routes.draw do
+Fizzbuzz::Application.routes.draw do
+  resources :posts
+
+  get "home/index"
+
+  get "home/new"
+
+  post "home/create"
+
+  get "home/show"
+
+  root :to => "home#new"
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
